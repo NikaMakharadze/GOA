@@ -1,0 +1,125 @@
+from turtle import *
+
+speed(10)
+width(7) #size
+shape("turtle")
+# house's skeleton
+forward(600)
+left(90)
+forward(300)
+left(90)
+forward(600)
+left(90)
+forward(300)
+right(90)
+forward(300)
+right(90)
+forward(200)
+right(90)
+forward(300)
+left(90)
+forward(100)
+penup()
+goto(-250, 0)
+pendown()
+forward(150)
+right(90)
+forward(200)
+right(90)
+forward(150)
+left(90)
+penup()
+goto(250, 0)
+pendown()
+# dor
+color("Orange")
+begin_fill()
+left(90)
+forward(120)
+right(90)
+forward(80)
+right(90)
+forward(120)
+end_fill()
+# window 
+
+color("Blue")
+left(90)
+penup()
+goto(600, 170)
+pendown()
+begin_fill()
+right(180)
+forward(100)
+left(90)
+forward(70)
+left(90)
+forward(100)
+end_fill()
+# window N 2
+
+penup()
+goto(0, 170)
+pendown()
+begin_fill()
+forward(100)
+right(90)
+forward(70)
+right(90)
+forward(100)
+end_fill()
+
+# roof
+
+color("Brown")
+penup()
+goto(600, 300)
+pendown()
+begin_fill()
+right(60)
+forward(100)
+left(60)
+forward(500)
+left(60)
+forward(100)
+end_fill()
+
+# Grass
+
+penup()
+goto(-780, -100)
+pendown()
+left(120)
+color("Green")
+begin_fill()
+forward(1540)
+right(90)
+forward(280)
+right(90)
+forward(1525)
+right(90)
+forward(280)
+end_fill()
+
+# sun
+
+penup()
+goto(-760, 400)
+pendown()
+color("Yellow")
+begin_fill()
+right(180)
+forward(100)
+left(130)
+forward(140)
+left(140)
+forward(100)
+end_fill()
+
+
+
+
+
+
+hideturtle()
+exitonclick()
