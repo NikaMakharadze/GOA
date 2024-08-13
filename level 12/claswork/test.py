@@ -28,3 +28,4 @@ if age < 18 or student:
     print("discount")
 else:
     print("Normal Price")
+
